@@ -11,7 +11,7 @@ ask for your keys, never sign anything and need no account: you paste a transact
 | Tool | Use it when | You paste, you get |
 |---|---|---|
 | **Safe to Send** · [open](https://cryppit.github.io/safe-to-send/) | You are about to send to an address on another chain. Some smart wallets (Abstract, Safe) exist on one chain only, and money sent to the same address elsewhere can be lost. | An address and the chain you will send on. You get *safe*, *caution* or *don't send*, checked on 20 chains, with the reason. |
-| **Address check** · [open](https://wheres-my-swap.station-wheres-my-swap.workers.dev/address) | You want to be sure an address is right before sending. | Any address on 10 chains. You get which chain it belongs to and whether it has a typo; for Zcash, whether a transparent-only or a shielded wallet can pay it. Checked in your browser, nothing is sent anywhere. |
+| **Address check** · [open](https://wheres-my-swap.station-wheres-my-swap.workers.dev/address) | You want to be sure an address is right before sending. | Any address on the 21 chains NEAR Intents pays out to. You get which chain it belongs to and whether it has a typo; for Zcash, whether a transparent-only or a shielded wallet can pay it. Checked in your browser, nothing is sent anywhere. |
 
 ## Your money is stuck on the way
 
@@ -19,7 +19,7 @@ ask for your keys, never sign anything and need no account: you paste a transact
 |---|---|---|
 | **Where's My Swap** · [open](https://wheres-my-swap.station-wheres-my-swap.workers.dev) | You swapped through NEAR Intents (used inside many wallets and apps) and the money has not arrived. | The transaction from your wallet. You get every step of the swap, where the money is right now, who can move it, and how to get it back if it was refunded. Payouts on 33 chains. |
 | **Zcash Refund Helper** · [open](https://cryppit.github.io/zec-refund-helper/) | You sent ZEC or BTC into the NEAR Omni bridge and it never arrived. | Your deposit's transaction. You get where it stands and, if it can be refunded, every step left, what each costs and the only address it can go back to (shielded when your address can take it). Used on mainnet to send a stuck 0.1 BTC home. |
-| **Where's My Withdrawal** · [open](https://cryppit.github.io/wheres-my-withdrawal/) | You are moving ETH from a rollup (Optimism, Base, Arbitrum, Robinhood Chain, Linea, ZKsync) back to Ethereum and it seems stuck. | The withdrawal transaction. You get which step is missing (prove, wait, claim) and who can do it; often anyone can, and the money still goes only to you. |
+| **Where's My Withdrawal** · [open](https://cryppit.github.io/wheres-my-withdrawal/) | You are moving ETH from a rollup (13 chains, including Optimism, Base, Arbitrum, Blast, Robinhood Chain, Linea and ZKsync) back to Ethereum and it seems stuck. | The withdrawal transaction. You get which step is missing (prove, wait, claim) and who can do it; often anyone can, and the money still goes only to you. |
 
 ## In a chat
 
