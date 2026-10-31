@@ -20,6 +20,7 @@ ask for your keys, never sign anything and need no account: you paste a transact
 | **Where's My Swap** · [open](https://wheres-my-swap.station-wheres-my-swap.workers.dev) | You swapped through NEAR Intents (used inside many wallets and apps) and the money has not arrived. | The transaction from your wallet. You get every step of the swap, where the money is right now, who can move it, and how to get it back if it was refunded. Payouts on 33 chains. |
 | **Zcash Refund Helper** · [open](https://cryppit.github.io/zec-refund-helper/) | You sent ZEC or BTC into the NEAR Omni bridge and it never arrived. | Your deposit's transaction. You get where it stands and, if it can be refunded, every step left, what each costs and the only address it can go back to (shielded when your address can take it). Used on mainnet to send a stuck 0.1 BTC home. |
 | **Where's My Withdrawal** · [open](https://cryppit.github.io/wheres-my-withdrawal/) | You are moving ETH from a rollup (13 chains, including Optimism, Base, Arbitrum, Blast, Robinhood Chain, Linea and ZKsync) back to Ethereum and it seems stuck. | The withdrawal transaction. You get which step is missing (prove, wait, claim) and who can do it; often anyone can, and the money still goes only to you. |
+| **Shield Receipt** · [open](https://cryppit.github.io/shield-receipt/) | You withdrew ZEC from an exchange to a shielded or unified address and want to know whether it arrived shielded. Many exchanges pay the transparent part instead. | The withdrawal's transaction and the address you gave (it never leaves the page). You get where it landed: your transparent address, where anyone can see the amount, or a shielded pool (Sapling, Orchard or Ironwood). |
 
 ## In a chat
 
@@ -47,7 +48,8 @@ ready for the NU7 upgrade, from public evidence, re-checked every hour.
   [Zcash Refund Helper](https://github.com/cryppit/zec-refund-helper),
   [Where's My Withdrawal](https://github.com/cryppit/wheres-my-withdrawal),
   [Safe to Send](https://github.com/cryppit/safe-to-send),
-  [NU7 Readiness](https://github.com/cryppit/nu7-readiness).
+  [NU7 Readiness](https://github.com/cryppit/nu7-readiness),
+  [Shield Receipt](https://github.com/cryppit/shield-receipt).
 
 ## How we work
 
